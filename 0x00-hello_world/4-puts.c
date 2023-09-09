@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /*
- * writing my first C program
+ * main - Entry point
  *
+ * Return: 0 (success)
  */
 
-int main(void)
+int main(void) /* main is the entry point */
 {
 puts("\"Programming is like building a multilingual puzzle");
-retun (0);
+return (0);
 }
-
