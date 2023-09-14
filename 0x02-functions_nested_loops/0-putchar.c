@@ -1,15 +1,19 @@
-#include <stdio.h>
-#include <main.h>
-
+include "main.h"
 /**
- * main - the beginning of the program
+ * main - Entry point
  *
- * Return: always return (0)
-*/
-
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	printf("_putchar");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
-}
