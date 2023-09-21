@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * main - Entry Point
- * print_alphabet - print all alphabet in lowercase
+ * main - Entry Point.
  *
- * Return: void
+ * print_alphabet: print all alphabet in lowercase.
+ *
+ * Return: Always 0
  */
 
 void print_alphabet(void)
+/* print_alphabet: print all alphabet in lowercase. */
 {
 char ch;
 
