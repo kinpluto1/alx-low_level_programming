@@ -33,6 +33,7 @@ for (hori = 0; hori <= 9; hori++)
 			}
 	_putchar((multiply % 10) + '0');
 	}
+	_putchar('\n');
 	}
 _putchar('\n');
 }
