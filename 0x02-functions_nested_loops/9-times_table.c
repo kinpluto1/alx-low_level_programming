@@ -35,5 +35,4 @@ for (hori = 0; hori <= 9; hori++)
 	}
 	_putchar('\n');
 	}
-_putchar('\n');
 }
