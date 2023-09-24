@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - Prints the 9 times table, starting with zero
+ * times_table - Prints the 9 times table, starting with zero
  */
 
 void times_table(void)
@@ -31,7 +31,7 @@ for (hori = 0; hori <= 9; hori++)
 			{
 			_putchar((multiply / 10) + '0');
 			}
-		
+
 		_putchar((multiply % 10) + '0');
 	}
 	}
