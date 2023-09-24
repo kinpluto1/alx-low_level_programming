@@ -17,12 +17,12 @@ for (hori = 0; hori <= 9; hori++)
 		{
 		_putchar('0');
 		}
-			else
-			{
-			_putchar(',');
-			_putchar(' ');
+		else
+		{
+		_putchar(',');
+		_putchar(' ');
+		}
 
-			}
 		if (multiply < 10)
 		{
 		_putchar(' ');
@@ -33,11 +33,8 @@ for (hori = 0; hori <= 9; hori++)
 			}
 	_putchar((multiply % 10) + '0');
 	}
-		if (verti < 9)
-		{
 		_putchar(',');
 		_putchar(' ');
 		}
 	_putchar('\n');
 	}
-}
