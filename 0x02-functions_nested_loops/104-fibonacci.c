@@ -4,7 +4,6 @@
 /**
  * main - main code block
  * Description:  Find and print the first 98 fib numbers starting with 1 and 2.
- * 
  * Return: 0
  */
 
@@ -30,7 +29,7 @@ for (count = 2; count < 98; count++)
 	{
 	hold2 = bk1 + bk2;
 	bk1 = bk2, bk2 = hold2;
-	printf("%lu",bk2);
+	printf("%lu", bk2);
 	}
 	if (count != 97)
 		printf(", ");
